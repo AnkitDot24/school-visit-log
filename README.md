@@ -128,10 +128,7 @@ networks. Check from the phone's browser by opening `http://<your-LAN-IP>:4000/a
 phone and computer must be on the same Wi-Fi, and the app shows *No server* rather than *Online*
 when this is the case.
 
-**The visit form says there is no questionnaire for this month.** Questionnaires are seeded for
-**July, August and September 2026** only, and the form always uses the current month in IST. If you
-run this after September 2026, add a row for the current month to `server/data/questionnaires.json`
-and re-run `npm run seed`.
+
 
 **`mongorestore` is not recognised.** The MongoDB Database Tools are a separate download from the
 server itself. Either install them and reopen your terminal, or skip the dump and use Option B
