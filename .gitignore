@@ -1,0 +1,15 @@
+node_modules/
+.env
+.env.local
+*.log
+.DS_Store
+.idea/
+.vscode/
+*.pdf
+
+# Expo / React Native
+app/.expo/
+app/dist/
+app/web-build/
+app/android/
+app/ios/
