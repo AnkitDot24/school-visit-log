@@ -74,7 +74,7 @@ defaults in `.env.example` work as-is for a standard local MongoDB.
 
 | Variable        | Default in `.env.example`             | Purpose                                                                             |
 | --------------- | ------------------------------------- | ----------------------------------------------------------------------------------- |
-| `MONGODB_URI`   | `mongodb://127.0.0.1:27017/visit_log` | Database connection. Use `127.0.0.1`, not `localhost` — Node may resolve it to IPv6.  |
+| `MONGODB_URI`   | `MONGODB_URI=mongodb+srv://ankitdotslash_db_user:FdURwGELVoQX8LF9@database.fe3ocxo.mongodb.net/visit_log?retryWrites=true&w=majority` |  
 | `PORT`          | `4000`                                | Port the API listens on (bound to `0.0.0.0` so a phone on the LAN can reach it).      |
 | `NODE_ENV`      | `development`                         | Shown in the startup log.                                                             |
 | `LOG_TIME_ZONE` | `Asia/Kolkata`                        | Timezone used for log timestamps only. Visit months are always IST regardless.        |
